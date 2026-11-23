@@ -1,0 +1,12 @@
+﻿<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Find the distance and JetCard Min / Max Leg NM for two airports worldwide."><title>Routeband — Airport distance & leg limits</title><link rel="stylesheet" href="styles.css"><script type="module" src="app.mjs"></script></head>
+<body><main><header><h1>Routeband</h1><p>Two airports. Your leg limits.</p></header>
+<div class="fields">
+<section class="field"><label for="departure">Departure</label><input id="departure" placeholder="EGTK" autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="hint departure-status" aria-controls="departure-options" aria-expanded="false" role="combobox" aria-autocomplete="list"><p class="selection" id="departure-status">Choose an airport</p><ul id="departure-options" role="listbox" hidden></ul></section>
+<section class="field"><label for="arrival">Arrival</label><input id="arrival" placeholder="OMDW" autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="hint arrival-status" aria-controls="arrival-options" aria-expanded="false" role="combobox" aria-autocomplete="list"><p class="selection" id="arrival-status">Choose an airport</p><ul id="arrival-options" role="listbox" hidden></ul></section>
+</div><p id="hint" class="hint">Enter an ICAO, IATA or local airport code.</p>
+<div id="answer" aria-live="polite"><div class="results"><div><span>Distance · NM</span><strong id="distance">—</strong></div><div><span>Min Leg NM</span><strong id="min">—</strong></div><div><span>Max Leg NM</span><strong id="max">—</strong></div></div><p id="note">Choose both airports to see the values.</p></div>
+<footer>Distance bands help narrow JetCard trips; they cannot guarantee a route.<br><a href="https://ourairports.com/data/">Worldwide airport data</a> · <a href="https://github.com/ewozza/routeband">Source</a></footer>
+<noscript>Enable JavaScript to calculate airport distances.</noscript></main></body></html>
+
+
