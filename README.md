@@ -8,8 +8,6 @@ Enter two ICAO, IATA or local airport codes. The app shows rounded great-circle 
 
 Public site: https://ewozza.github.io/routeband/
 
-For initial hosting setup: repository Settings → Pages → Deploy from a branch → main → / (root) → Save.
-
 No build, API key, account or backend is needed. Serve this folder with any static HTTP server. Modern browsers with DecompressionStream support are required. Airport lookup downloads only the compressed code-prefix files needed.
 
 ## Data and accuracy
