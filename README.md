@@ -21,3 +21,5 @@ Distance uses the haversine formula with a 3440.065 NM Earth radius and rounds t
 Bands narrow distance eligibility, but cannot guarantee a generated route: other airports can share a distance band and JetCard applies additional aircraft, airport and trip rules. This app does not modify accounts or call JetCard services. It is unofficial and not for navigation.
 
 Each compressed airport tuple contains: identifier, name, country, latitude, longitude, aliases, JetCard status (0 unknown / 1 present / 2 disabled), closed flag. Data is split by the first character of every searchable alias; duplicate tuples across shards are intentional.
+
+Thanks Codex <3
